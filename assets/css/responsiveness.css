@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1599px){
+    .hero-left{
+        top: 150px;
+    }
+    .hero-content h1, .about-body h1, .section-title h1{
+        font-size: 4.25rem;
+    }
+    .hero-content p{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1365px){
+    .hero-left{
+        top: 150px;
+    }
+    .hero-content h1, .about-body h1, .section-title h1{
+        font-size: 3.5rem;
+        line-height: 65px;
+        margin: 25px 0;
+    }
+    .hero-content p{
+        width: 100%;
+    }
+
+    .contact-method ion-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-method h3{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 1200px){
+    .hero-content h1, .about-body h1, .section-title h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .nav-links ul{
+        display: none;
+    }
+    .sidebar-transition{
+        transition: .5s ease-in-out;
+    }
+    .sidebar-active{
+        transform: translateX(0);
+    }
+    .burger, .sidebar{
+        transition: all .7s ease;
+        display: block;
+    }
+    .burger-translated{
+        right: calc(60% - 20px);
+        transform: rotate(90deg);
+    }
+    .hero-container{
+        flex-flow: column;
+        padding: 0;
+    }
+    .hero-left{
+        max-width: 100%;
+        position: relative;
+        top: unset;
+    }
+    .hero-content{
+        width: 100%;
+        margin: 0;
+    }
+    .hero-container .hero-cta{
+        flex-flow: column;
+        width: 100%;
+    }
+    .hero-container .hero-cta a, .about-body .about-cta a{
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .about-container{
+        flex-flow: column-reverse;
+    }
+    .about-container .about-img-wrapper, .about-container .about-left{
+        width: 100%;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        height: unset;
+    }
+    .contact-container .contact-form{
+        height: 650px;
+        width: 100%;
+    }
+    .contact-container .contact-right{
+        height: unset;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .contact-container .contact-right .contact-method{
+        height: unset;
+        margin: 20px 0;
+        padding: 25px 0;
+    }
+    .contact-form form input[type="submit"]{
+        width: 50%;
+    }
+}
