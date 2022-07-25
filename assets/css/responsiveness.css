@@ -111,4 +111,12 @@
     .contact-form form input[type="submit"]{
         width: 50%;
     }
+
+    footer{
+        flex-flow: column;
+        text-align: center;
+    }
+    footer h3{
+        margin: 20px 0;
+    }
 }

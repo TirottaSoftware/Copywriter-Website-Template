@@ -595,3 +595,27 @@ section{
     font-family: var(--font-subtitle);
     font-size: 1.5rem;
 }
+
+/* Footer */
+
+footer{
+    display: flex;
+    padding: 1% 10%;
+    background: var(--color-primary);
+    color: var(--color-accent);
+    justify-content: space-between;
+    align-items: center;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-links ion-icon{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    cursor:pointer;
+}
+.social-links ion-icon:hover{
+    color: white;
+}
