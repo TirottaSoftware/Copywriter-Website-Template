@@ -379,23 +379,12 @@ section{
     font-weight: 900;
     height: 500px;
 }
-#course-01{
-    background-image: url("../img/01.jpg");
-}
-#course-02{
-    background-image: url("../img/02.jpg");
-}
-#course-03{
-    background-image: url("../img/03.jpg");
-}
-#course-04{
-    background-image: url("../img/04.jpg");
-}
 .course-card .img-wrapper{
     width: 95%;
     border-radius: 15px;
     margin: 2.5%;
     height: 80%;
+    background-image: url("../img/course.jpg");
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -600,6 +589,7 @@ section{
 
 footer{
     display: flex;
+    font-family: var(--font-title);
     padding: 1% 10%;
     background: var(--color-primary);
     color: var(--color-accent);
